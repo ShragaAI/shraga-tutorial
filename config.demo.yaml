@@ -1,0 +1,23 @@
+server:
+  port: 8000
+
+ui:
+  enabled: true
+  name: Shraga Tutorial
+  title: Shraga Tutorial
+  default_flow: demo
+  list_flows: true
+  loading_messages:
+    - Looking up relevant information
+    - Compiling analysis and sources
+    - Generating answer
+
+auth:
+  users:
+    - user@domain.com
+  realms:
+    basic:
+      - user@domain.com:secretpwd
+
+history:
+  enabled: false
